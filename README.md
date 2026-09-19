@@ -49,7 +49,7 @@
 
 ### 1. 🎛️ Basic Control Systems
 
-- **Classical Control Theory — Brian Douglas** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk)
+- [Classical Control Theory - Brian Douglas](https://www.youtube.com/playlist?list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk) [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk)
 - **Nonlinear Systems — MIT Course** [![Web](https://img.shields.io/badge/Web-MIT-blue?logo=mit&logoColor=white)](https://web.mit.edu/nsl/www/videos/lectures.html)
 - **Control Bootcamp — Steve Brunton** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m)
 
