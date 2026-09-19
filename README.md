@@ -28,6 +28,65 @@
     </a>
 </p>
 
+
+## What Will You Find Here?
+
+- Example robotics projects
+- Source code from project examples covering **electrical, mechanical, and programming**, with step-by-step explanations
+- A list of other useful references and resources for learning robotics
+
+## Need Another Recource? Try to see this below
+**1. Basic Control system**
+- [Classical Control Theory ---> Brian Douglas](https://www.youtube.com/playlist?list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk)
+- [Nonlinear System ---> MIT Course](https://web.mit.edu/nsl/www/videos/lectures.html)
+- [Control Bootcamp --> Steve Brunton](https://www.youtube.com/playlist?list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m)
+
+
+**2. Robotics Algorithm**
+- [Autonomous Vehicle Control Beginners Guide --> Shisato Yano](https://github.com/ShisatoYano/AutonomousVehicleControlBeginnersGuide)
+
+## 📚 Need Another Resource?
+
+Looking for more resources to learn robotics?  
+Here are some useful references for learning **control systems, robotics algorithms, and autonomous systems**.
+
+---
+
+### 🎛️ Basic Control Systems
+
+**Brian Douglas — Classical Control Theory**
+
+[![YouTube](https://img.shields.io/badge/YouTube-Playlist-red?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk)
+
+A great introduction to classical control theory, including feedback, transfer functions, PID control, stability, and frequency response.
+
+---
+
+**MIT — Nonlinear Systems**
+
+[![Website](https://img.shields.io/badge/Web-MIT%20Course-9C0000?logo=mit&logoColor=white)](https://web.mit.edu/nsl/www/videos/lectures.html)
+
+Lecture materials covering nonlinear systems and nonlinear control.
+
+---
+
+**Steve Brunton — Control Bootcamp**
+
+[![YouTube](https://img.shields.io/badge/YouTube-Playlist-red?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m)
+
+A practical introduction to control theory and its applications.
+
+---
+
+### 🤖 Robotics Algorithms
+
+**Shisato Yano — Autonomous Vehicle Control: Beginner's Guide**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github&logoColor=white)](https://github.com/ShisatoYano/AutonomousVehicleControlBeginnersGuide)
+
+A useful reference for learning autonomous vehicle control algorithms and implementation concepts.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
