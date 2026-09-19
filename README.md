@@ -39,21 +39,21 @@
 
 ### 1. Basic Control Systems
 
-- **Classical Control Theory — Brian Douglas** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk)
-- **Nonlinear Systems — MIT Course** [![Web](https://img.shields.io/badge/Web-MIT-blue?logo=mit&logoColor=white)](https://web.mit.edu/nsl/www/videos/lectures.html)
-- **Control Bootcamp — Steve Brunton** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m)
+- Classical Control Theory — **Brian Douglas** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk)
+- Nonlinear Systems — **MIT Course** [![Web](https://img.shields.io/badge/Web-MIT-blue?logo=mit&logoColor=white)](https://web.mit.edu/nsl/www/videos/lectures.html)
+- Control Bootcamp — **Steve Brunton** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m)
 
 ### 2. Robotics Algorithms
 
-- **Modern Robotics — Northwestern University** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=jVu-Hijns70&list=PLggLP4f-rq02vX0OQQ5vrCxbJrzamYDfx)
-- **Mobile Robot Systems Cource — Amanda Prorok, University of Cambridge** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=6mysfrcOABY&list=PLaTKfS3-bDpDyOwrxLcQRGxY9XJw33ANo&index=10)
-- **Introduction to Robotics | Kinematics & Modeling — Engineering Simplified** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=K_xIJBlbjg4&list=PL1YrgW7ROFofBqPGiWAmTqIwDc5SrzZrA)
-- **Wheeled Mobile Robots — NPTEL-NOC IITM** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=k5Er0-HD-qw&list=PLyqSpQzTE6M9CXsZljkH_lCxRSiaXF566&index=1)
-- **Robot Control Lecture — Cyrill Stachniss** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=U-DpHiHcQPo&list=PLgnQpQtFTOGT_BlLxVnsuI-7CEQCgNuk4)
-- **Self-Driving Cars Open Online Course — Duckietown** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=33fFfL8zOzI&list=PLA_e-PnzHulcMKknwJCtqEzP-n4iEjE8C&index=2)
-- **Robotics Course — Engineering Educator Academy** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLjoIYgWzjQHK8G2O56jsu56dmjWiipguv)
-- **Introduction to Robotics — Nikolaus Correll** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLJafQ8U0gQVXVSg9_AjS1ZhT2E0FbPy2F)
-- **Autonomous Vehicle Control Beginner's Guide — Shisato Yano** [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/ShisatoYano/AutonomousVehicleControlBeginnersGuide)
+- Modern Robotics — **Northwestern University** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=jVu-Hijns70&list=PLggLP4f-rq02vX0OQQ5vrCxbJrzamYDfx)
+- Mobile Robot Systems Cource — **Amanda Prorok, University of Cambridge** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=6mysfrcOABY&list=PLaTKfS3-bDpDyOwrxLcQRGxY9XJw33ANo&index=10)
+- Introduction to Robotics | Kinematics & Modeling — **Engineering Simplified** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=K_xIJBlbjg4&list=PL1YrgW7ROFofBqPGiWAmTqIwDc5SrzZrA)
+- Wheeled Mobile Robots — *NPTEL-NOC IITM** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=k5Er0-HD-qw&list=PLyqSpQzTE6M9CXsZljkH_lCxRSiaXF566&index=1)
+- Robot Control Lecture — **Cyrill Stachniss** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=U-DpHiHcQPo&list=PLgnQpQtFTOGT_BlLxVnsuI-7CEQCgNuk4)
+- Self-Driving Cars Open Online Course — **Duckietown** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=33fFfL8zOzI&list=PLA_e-PnzHulcMKknwJCtqEzP-n4iEjE8C&index=2)
+- Robotics Course — **Engineering Educator Academy** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLjoIYgWzjQHK8G2O56jsu56dmjWiipguv)
+- Introduction to Robotics — **Nikolaus Correll** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLJafQ8U0gQVXVSg9_AjS1ZhT2E0FbPy2F)
+- Autonomous Vehicle Control Beginner's Guide — **Shisato Yano** [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/ShisatoYano/AutonomousVehicleControlBeginnersGuide)
 
 
 ## License
