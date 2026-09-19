@@ -1,7 +1,7 @@
 # Robotics-for-Everyone - My Repository for Learning Robotics
 
 <p align="center">
-    <img src="https://github.com/AbdulRahmannnnnn/Robotics-For-Everyone/blob/main/1788117305964.jpeg"
+    <img src="/images/1788117305964.jpeg"
         alt="Robotics-for-Everyone" width="90%" />
 </p>
 <!-- Badges -->
