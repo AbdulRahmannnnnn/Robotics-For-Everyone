@@ -49,7 +49,7 @@ ros2 run micro_ros_setup create_agent_ws.sh
 <p align="center">
     <img src="/images/nav2.png"
          alt="SLAM Differential Mobile Robot"
-         width="90%" />
+         width="60%" />
 </p>
 
 ```bash
