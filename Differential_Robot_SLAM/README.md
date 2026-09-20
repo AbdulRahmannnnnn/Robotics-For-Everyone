@@ -45,6 +45,13 @@ source ~/microros_ws/install/local_setup.bash
 ros2 run micro_ros_setup create_agent_ws.sh
 ```
 4. [Install Navigation 2(Nav2)](https://docs.nav2.org/jazzy/getting_started/build_and_install/)
+
+<p align="center">
+    <img src="/images/nav2.png"
+         alt="SLAM Differential Mobile Robot"
+         width="90%" />
+</p>
+
 ```bash
 source /opt/ros/jazzy/setup.bash
 # Update your package list
