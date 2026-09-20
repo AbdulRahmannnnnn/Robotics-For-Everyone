@@ -1,7 +1,7 @@
 # SLAM Differential Mobile Robot
 
 <p align="center">
-    <img src="images/slam.png"
+    <img src="/images/slam.png"
          alt="SLAM Differential Mobile Robot"
          width="90%" />
 </p>
