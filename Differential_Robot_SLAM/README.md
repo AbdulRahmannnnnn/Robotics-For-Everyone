@@ -75,7 +75,29 @@ sudo apt install ros-$ROS_DISTRO-teleop-twist-keyboard
 #Publishing to a different topic (in this case my_cmd_vel)
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args --remap cmd_vel:=my_cmd_vel
 ```
-7. Install 
+7. [Install Madgwick Filter Packages](https://docs.ros.org/en/jazzy/p/imu_filter_madgwick/)
+
+```bash
+sudo apt install ros-$ROS_DISTRO-imu-filter-madgwick
+```
+8. [Install Robot Localization Packages](https://github.com/cra-ros-pkg/robot_localization/tree/jazzy-devel)
+```bash
+sudo apt install ros-$ROS_DISTRO-robot-localization
+#Verification
+abdulrahman@ubuntu-dev:~$ ros2 pkg executables robot_localization
+#example output
+robot_localization ekf_node
+robot_localization navsat_transform_node
+robot_localization robot_localization_listener_node
+robot_localization ukf_node
+```
+9. [Install RPLiDAR Packages](https://github.com/Slamtec/rplidar_ros/tree/ros2)
+```bash
+cd ~/ros2_ws/src
+git clone -b ros2 https://github.com/Slamtec/rplidar_ros.git
+source /opt/ros/<rosdistro>/setup.bash
+colcon build --symlink-install
+```
 
 ### Setup Environment
 
