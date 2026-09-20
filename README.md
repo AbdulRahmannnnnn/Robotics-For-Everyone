@@ -57,6 +57,9 @@
 
 ### 3. Robot Operating System (ROS2) 
 - ROS 2: Zero to Robot — **Pouya Mansournia** [![Web](https://img.shields.io/badge/Web-PouyaMansournia-blue?logo=mit&logoColor=white)](https://pouya-mansournia.github.io/ros2-zero-to-robot/)
+- ROS 2 Tutorials — **Husarion** [![Web](https://img.shields.io/badge/Web-Husarion-blue?logo=mit&logoColor=white)](https://husarion.com/tutorials/ros2-tutorials/ros2/)
+- ROS2 Jazzy Fundamentals — **Automatic Addison** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLNWNEEf8BvG64FVZT4IdieI1PuYnHkUrt)
+- ROS2 Jazzy Jalisco Tutorials — **Aleksander Haber Phd** [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLO89phzZmnHgTtr2uncyQN5hNMopUQa3e)
 
 ## License
 
