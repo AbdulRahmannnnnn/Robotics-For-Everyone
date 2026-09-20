@@ -26,9 +26,6 @@
     </a>
 </p>
 
-## New Using ROS2?
-- Install ROS2 Jazzy Jalisco
-
 ## Getting Started
 ### Prerequisites
 1. Ubuntu Noble 24.04
