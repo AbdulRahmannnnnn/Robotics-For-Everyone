@@ -62,6 +62,12 @@ Run only using Kinematic equation without Path Controller to make sure the robot
     
 UMBmark is primarily designed to identify and compensate the two dominant systematic odometry errors in differential-drive mobile robots: unequal wheel diameters and uncertainty in the effective wheelbase. Other systematic errors, such as wheel misalignment, encoder resolution, and encoder sampling limitations, may contribute to the measured Type A and Type B errors but are not independently identified by the standard UMBmark procedure
 
+<p align="center">
+    <img src="/images/UMBmark.png"
+         alt="UMBmark"
+         width="80%" />
+</p>
+
 **Reference**
 
 * J. Borenstein and L. Feng, *Measurement and Correction of Systematic Odometry Errors in Mobile Robots*, IEEE Transactions on Robotics and Automation, Vol. 12, No. 6, 1996, pp. 869-880.
