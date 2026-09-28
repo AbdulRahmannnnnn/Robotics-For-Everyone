@@ -75,3 +75,11 @@ UMBmark is primarily designed to identify and compensate the two dominant system
 
 * Changbae Jung and Woojin Chung, *Design of Test Tracks for Odometry Calibration of Wheeled Mobile Robots*, Adv Robotic Sy, 2011, Vol. 8, No. 4, 1-9.
   [Paper PDF](https://www.researchgate.net/publication/221915426_Design_of_Test_Tracks_for_Odometry_Calibration_of_Wheeled_Mobile_Robots)
+
+
+#### Extended Kalman Filter Localization Calibration
+
+**Reference**
+
+* Hartzer, & Saripalli. (2025). *EKF_CAL: Extended Kalman Filter-based Calibration and Localization*. Journal of Open Source Software, 10(109), 7793.
+  [Paper PDF](https://joss.theoj.org/papers/10.21105/joss.07793)
