@@ -1,3 +1,37 @@
+#### IMU Calibration
+
+we can reduce the IMU systematic error with calibration for each sensor in IMU9250. systematic error :
+* static bias, sensor should give us zero value when the sensor in stop.
+* Thermal bias, thermal changer on chip can caused the bias value from gyroscope
+* scale factor error, different sensitivity sensor from ideal sensor. A 1g acceleration might read as 0.98g or 1.02g.
+* Missaligment attached error.
+* Hard iron and soft iron distortion
+
+**Reference**
+
+* https://www.bettlink.com/blog/imu-sensor-guide
+
+#### Madgwick Filter Algorithm
+
+MPU9250 is 9DOF AHRS sensor that can provide accelerometer, gyroscope, and magnetometer, for each measurement have a limitations:
+
+* **Accelerometer** provides linear acceleration in $x, y, z$ axis and gravity direction, can calculate roll and pitch but **it's noisy** because vibration and can't calculate **yaw/heading** caused gravity direction doens't change if the robot rotate in $z$ axis.
+* **Gyroscope**, gives us agular velocity in $x,y,z$ axis. can calculate angular displacement $roll,pitch,yaw$ but acumulate drift bias even the robot literally stop
+*  **Magnetometer**, provides strength of magnetic field in $x,y,z$ axis like digital compass that tell us north direction but very sensitive to magnetic interference local such as motor dc, high current cable, iron chassis
+
+That's Why we Need a Filter:
+* *complementary filter*, just using **high pass filter** for gyro and **low pass filter** for acce/mag. the Simplest filter but less than optimal to handle nonlinear system
+* *kalman filter*, using mathematic calculation and statistic error to estimate optimal state using two step, **predict and update**, but still less than optimal for nonlinear system if still using kalman filter standart.
+* *madgwick filter*, using gradient descent optimization approach in quaternion terms to calculate the orientation and avoid **gimbal lock problem**
+* *mahony filter*, similiar like madgwick filter, but using **Proportional-Intergral Feedback loop**, so more complicated because using 2 tuning parameters variable rather than madgwick filter.
+  
+
+Madgwick filter combine advantages of them using mathematic calculation to estimate orientation in quaternion terms.
+
+**Reference**
+* Ma, M.; Song, Q.; Gu, Y.; Zhou, Z. *Use of Magnetic Field for Mitigating Gyroscope Errors for Indoor Pedestrian Positioning*. Sensors 2018, 18, 2592. https://doi.org/10.3390/s18082592. [Paper PDF](https://www.mdpi.com/1424-8220/18/8/2592)
+* https://ahrs.readthedocs.io/en/stable/filters/madgwick.html
+  
 #### Odometry Calibration
 Odometry is widely used method to estimate actual position relative to starting position. The output will use in EKF Localization simultaneously with IMU or various sensor (Sensor Fusion) to make Odometry more accurate. So we need to make sure if wheel odometry resulting correct value. 
  
