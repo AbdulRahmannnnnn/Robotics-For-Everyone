@@ -76,15 +76,16 @@ UMBmark is primarily designed to identify and compensate the two dominant system
 * Changbae Jung and Woojin Chung, *Design of Test Tracks for Odometry Calibration of Wheeled Mobile Robots*, Adv Robotic Sy, 2011, Vol. 8, No. 4, 1-9.
   [Paper PDF](https://www.researchgate.net/publication/221915426_Design_of_Test_Tracks_for_Odometry_Calibration_of_Wheeled_Mobile_Robots)
 
+---
 
-#### Extended Kalman Filter Localization Calibration
+#### Extended Kalman Filter Localization
 
-As we know, Dead reckonig have limitation since this methode have errors caused systematic and non systemetic error. Non systematic error can we reduce using sensor fusion algorithm with multi sensor (Encoder, IMU, GPS/GNSS, LiDAR, Camera). In this case, we will use ``robot_localization`` packages from ROS2 to implement *Extended Kalman Filter* as a sensor fusion algorithm.
+As we know, Dead reckoning have limitation since this methode have errors caused systematic and non systemetic error. Non systematic error can we reduce using sensor fusion algorithm with multi sensor (Encoder, IMU, GPS/GNSS, LiDAR, Camera). In this case, we will use ``robot_localization`` packages from ROS2 to implement *Extended Kalman Filter* as a sensor fusion algorithm.
 
 <p align= "center">
   <img src= "/images/ekf_works.png"
   alt="ekf_works"
-  width="80% " />
+  width="100% " />
 </p>
 
 ##### Differential Drive Motion Model
