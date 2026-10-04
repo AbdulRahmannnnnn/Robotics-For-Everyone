@@ -79,11 +79,13 @@ UMBmark is primarily designed to identify and compensate the two dominant system
 
 #### Extended Kalman Filter Localization Calibration
 
+As we know, Dead reckonig have limitation since this methode have errors caused systematic and non systemetic error. Non systematic error can we reduce using sensor fusion algorithm with multi sensor (Encoder, IMU, GPS/GNSS, LiDAR, Camera). In this case, we will use ``robot_localization`` packages from ROS2 to implement *Extended Kalman Filter* as a sensor fusion algorithm.
+
 # Differential Drive Motion Model
 
-Motion model digunakan oleh Extended Kalman Filter (EKF) untuk memprediksi perubahan posisi robot berdasarkan keadaan robot sebelumnya dan input gerak.
+Motion model used for Extended Kalman filter (EKF) to predict robot's position displacement based on initial position and motion input
 
-Untuk robot differential drive, state robot dapat disederhanakan menjadi:
+for differential robot, we can simplfied state of robot: 
 
 $$
 \mathbf{x} =
@@ -94,13 +96,13 @@ y \\
 \end{bmatrix}
 $$
 
-dengan:
+with:
 
-* $x$ : posisi robot pada sumbu $X$ [m]
-* $y$ : posisi robot pada sumbu $Y$ [m]
-* $\theta$ : orientasi robot terhadap sumbu $X$ [rad]
+* $x$ : robot position on $X$ axis [m]
+* $y$ : robot position on $Y$ axis [m]
+* $\theta$ : robot orientation respect to $X$ axis [rad]
 
-Input gerak robot adalah:
+and the motion input:
 
 $$
 \mathbf{u} =
@@ -110,14 +112,14 @@ v \\
 \end{bmatrix}
 $$
 
-dengan:
+with:
 
-* $v$ : kecepatan linear robot [m/s]
-* $\omega$ : kecepatan angular robot [rad/s]
+* $v$ : linear velocity of the robot [m/s]
+* $\omega$ : angular velocity of the robot [rad/s]
 
 ## 1. Continuous Motion Model
 
-Untuk differential-drive robot, model gerak dapat dituliskan sebagai:
+for differential-drive robot, we can write motion model as :
 
 $$
 \dot{x} = v\cos(\theta)
@@ -131,7 +133,7 @@ $$
 \dot{\theta} = \omega
 $$
 
-atau dalam bentuk matriks:
+or in matrics:
 
 $$
 \dot{\mathbf{x}} =
@@ -142,15 +144,15 @@ v\sin(\theta) \\
 \end{bmatrix}
 $$
 
-Model ini menunjukkan bahwa kecepatan linear $v$ bekerja sepanjang arah heading robot.
+this model shows how linear speed  $v$  works along heading direction of the robot
 
 ---
 
 ## 2. Discrete Motion Model
 
-Karena EKF bekerja secara diskrit, model tersebut dapat digunakan untuk menghitung keadaan robot pada waktu berikutnya.
+Because the EKF works in discrete time, the motion model can be used to calculate the robot state at the next timestep.
 
-Dengan timestep $\Delta t$:
+With timestep $\Delta t$:
 
 $$
 x_{k+1}
@@ -170,7 +172,7 @@ $$
 \theta_k + \omega_k\Delta t
 $$
 
-Sehingga:
+Therefore:
 
 $$
 \mathbf{x}_{k+1}
@@ -178,7 +180,7 @@ $$
 f(\mathbf{x}_k,\mathbf{u}_k)
 $$
 
-dengan:
+where:
 
 $$
 f(\mathbf{x}_k,\mathbf{u}_k)
@@ -192,9 +194,9 @@ $$
 
 ---
 
-## 3. Contoh Perhitungan
+## 3. Example Calculation
 
-Misalkan kondisi robot:
+for example. state of the robot:
 
 $$
 x_k = 2.0\;m
