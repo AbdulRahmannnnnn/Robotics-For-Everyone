@@ -81,7 +81,13 @@ UMBmark is primarily designed to identify and compensate the two dominant system
 
 As we know, Dead reckonig have limitation since this methode have errors caused systematic and non systemetic error. Non systematic error can we reduce using sensor fusion algorithm with multi sensor (Encoder, IMU, GPS/GNSS, LiDAR, Camera). In this case, we will use ``robot_localization`` packages from ROS2 to implement *Extended Kalman Filter* as a sensor fusion algorithm.
 
-# Differential Drive Motion Model
+<p align= "center">
+  <img src= "/images/ekf_works.png"
+  alt="ekf_works"
+  width="80% " />
+</p>
+
+##### Differential Drive Motion Model
 
 Motion model used for Extended Kalman filter (EKF) to predict robot's position displacement based on initial position and motion input
 
@@ -210,7 +216,7 @@ $$
 \theta_k = 30^\circ
 $$
 
-dengan input:
+with input:
 
 $$
 v_k = 0.5\;m/s
@@ -220,13 +226,13 @@ $$
 \omega_k = 0.2\;rad/s
 $$
 
-dan:
+and:
 
 $$
 \Delta t = 0.1\;s
 $$
 
-Maka:
+So:
 
 $$
 x_{k+1}
@@ -238,7 +244,7 @@ $$
 x_{k+1}\approx2.0433\;m
 $$
 
-Untuk sumbu $Y$:
+for $Y$ axis:
 
 $$
 y_{k+1}
@@ -250,7 +256,7 @@ $$
 y_{k+1}=1.025\;m
 $$
 
-Orientasi:
+Orientation:
 
 $$
 \theta_{k+1}
@@ -258,14 +264,14 @@ $$
 30^\circ + (0.2)(0.1)
 $$
 
-Karena $\omega$ menggunakan rad/s:
+Because $\omega$ used rad/s:
 
 $$
 \theta_{k+1}
 \approx31.15^\circ
 $$
 
-Dengan demikian, prediksi keadaan robot menjadi:
+So, prediction state of the robot become:
 
 $$
 \mathbf{x}_{k+1}
@@ -281,7 +287,7 @@ $$
 
 # 4. Jacobian Motion Model
 
-Karena motion model bersifat nonlinear akibat fungsi $\sin(\theta)$ dan $\cos(\theta)$, EKF menggunakan Jacobian untuk melakukan linearisasi lokal.
+Because motion model is nonlinear caused $\sin(\theta)$ and $\cos(\theta)$ function, EKF using Jacobian for local linearzation.
 
 Jacobian terhadap state adalah:
 
